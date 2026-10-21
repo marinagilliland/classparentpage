@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustrated placeholder teacher portrait">
+  <rect width="400" height="500" fill="#D5EDEE"/>
+  <g fill="#E6F5F5"><circle cx="340" cy="70" r="34"/><circle cx="50" cy="120" r="22"/><circle cx="72" cy="40" r="10"/><circle cx="360" cy="330" r="16"/></g>
+  <path d="M116 250c-10-104 34-152 84-152s94 48 84 152v58c0 12-14 16-22 6H138c-8 10-22 6-22-6z" fill="#1E1B22"/>
+  <path d="M52 500c0-96 62-142 148-142s148 46 148 142z" fill="#2F9C95"/>
+  <path d="M162 366h76l-38 134z" fill="#FFF8EE"/>
+  <path d="M162 366l38 50 38-50" stroke="#25807A" stroke-width="6" fill="none" stroke-linejoin="round"/>
+  <g fill="#F2C14E"><circle cx="200" cy="440" r="5"/><circle cx="200" cy="470" r="5"/></g>
+  <rect x="174" y="282" width="52" height="86" rx="22" fill="#EDBE98"/>
+  <circle cx="128" cy="230" r="15" fill="#EFC29E"/><circle cx="272" cy="230" r="15" fill="#EFC29E"/>
+  <ellipse cx="200" cy="218" rx="72" ry="86" fill="#F3CDAA"/>
+  <path d="M126 210c0-66 34-94 74-94s74 28 74 94c-12-12-26-18-40-16-16-12-46-12-62-2-18-6-34 4-46 18z" fill="#1E1B22"/>
+  <g fill="none" stroke="#1E1B22" stroke-width="5"><rect x="148" y="208" width="46" height="36" rx="14"/><rect x="206" y="208" width="46" height="36" rx="14"/><path d="M194 222q6-5 12 0"/></g>
+  <ellipse cx="171" cy="227" rx="6" ry="8" fill="#1E1B22"/><ellipse cx="229" cy="227" rx="6" ry="8" fill="#1E1B22"/>
+  <circle cx="173" cy="224" r="2.2" fill="#fff"/><circle cx="231" cy="224" r="2.2" fill="#fff"/>
+  <path d="M199 240q-6 16 5 18" stroke="#C99572" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="154" cy="262" r="13" fill="#F08B8B" opacity=".45"/><circle cx="246" cy="262" r="13" fill="#F08B8B" opacity=".45"/>
+  <path d="M178 270q22 22 44 0" stroke="#8C3B3B" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

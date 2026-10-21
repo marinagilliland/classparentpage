@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A private page for our class families: teacher favorites, school dates and ways to help.">
+  <title>Class Page</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link id="fonts" rel="stylesheet" href="">
+  <link rel="stylesheet" href="styles.css">
+  <style id="theme-vars"></style>
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <div class="wrap">
+      <a class="brand" href="#top" id="brand"></a>
+      <ul>
+        <li><a href="#meet" id="nav-meet">Meet</a></li>
+        <li id="nav-cal"><a href="#calendar">Calendar</a></li>
+        <li><a href="#help">Helping Out</a></li>
+        <li class="keep"><a href="/logout">Log out</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="week" id="week-banner" aria-label="This week">
+    <div class="wrap">
+      <span class="label">This week ✦</span>
+      <div class="chips" id="week-chips"></div>
+    </div>
+  </div>
+
+  <header class="hero" id="top">
+    <div id="hero-decor" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="photos" id="hero-photos"></div>
+      <div>
+        <span class="eyebrow" id="eyebrow"></span>
+        <h1 id="class-name"></h1>
+        <p class="tag" id="tagline"></p>
+        <div class="btns" id="hero-btns"></div>
+      </div>
+    </div>
+    <svg class="hero-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 Q 60 0 120 30 T 240 30 T 360 30 T 480 30 T 600 30 T 720 30 T 840 30 T 960 30 T 1080 30 T 1200 30 T 1320 30 T 1440 30 V60 H0Z"/></svg>
+  </header>
+
+  <section class="block alt" id="meet">
+    <div class="wrap">
+      <div class="sec-head"><div><h2 id="meet-title"></h2><p>A few favorite things — handy for birthdays, holidays and thank-yous.</p></div></div>
+      <div class="speech" id="intro"></div>
+      <div class="teachers" id="teachers"></div>
+    </div>
+  </section>
+
+  <section class="block" id="calendar">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><h2>School Calendar</h2><p id="cal-sub"></p></div>
+      </div>
+      <div class="cal">
+        <div>
+          <div class="month-nav">
+            <button class="mbtn" id="prev-month" type="button" aria-label="Previous month">‹</button>
+            <h3 id="month-label" aria-live="polite"></h3>
+            <button class="mbtn" id="next-month" type="button" aria-label="Next month">›</button>
+          </div>
+          <div class="cal-tools">
+            <span class="status" id="cal-status"></span>
+            <label class="toggle"><input type="checkbox" id="show-all"> Show all school events</label>
+          </div>
+          <div class="months" id="months"></div>
+        </div>
+        <aside class="side">
+          <div class="card">
+            <h3>Add to your calendar</h3>
+            <p>Download every date below into Apple, Google or Outlook calendar in one tap.</p>
+            <button class="btn primary" id="ics-all" type="button">📅 Download all dates</button>
+          </div>
+          <div class="card" id="school-card">
+            <h3>Full school calendar</h3>
+            <p id="school-blurb"></p>
+            <a class="btn" id="school-cal" target="_blank" rel="noopener">Open school calendar ↗</a>
+            <a class="btn" id="school-keydates" target="_blank" rel="noopener">Printable calendar ↗</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt" id="help">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>Helping Out</h2><p>Every little bit makes our classroom shine.</p></div></div>
+      <div class="help" id="help-cards"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap" id="footer"></div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
